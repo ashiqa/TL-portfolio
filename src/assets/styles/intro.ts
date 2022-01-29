@@ -11,25 +11,25 @@ export const Container = styled.section`
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
   }
-  
+
   .hero-text{
     & > p{
       font-size: 1.8rem;
     }
     h1{
       font-size: 7rem;
-      color:var(--darkpink);
+      color:var(--pink);
       margin-top: 0;
     }
 
     h2{
-      color:white ;
+      color:cream ;
       margin: 1rem 0;
     }
 
-    
+
     p.small-resume {
       margin-bottom: 5rem;
     }
@@ -56,7 +56,7 @@ export const Container = styled.section`
         font-size: 5rem;
       }
     }
-    
+
     .hero-image{
       display: none;
     }
@@ -71,13 +71,19 @@ export const Container = styled.section`
 
   .team-name{
     font-size: 120%;
-    color: var(--pink);
+    color: var(--cream);
   }
 
   #top-this{
     font-size: 150%;
-    color: #212121;
+    color: var(--cream);
     font-weight: bold;
     margin-bottom: 0;
+    //opacity:0.85;
+  }
+  #TLabs{
+    font-size: 500%;
+    color: var(--yellow);
+    font-weight: bold;
   }
 `

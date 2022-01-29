@@ -21,7 +21,7 @@ export const Container = styled.footer`
     gap: 0.5rem;
     img{
       width: 2.6rem;
-      
+
     }
     #react{
       animation: spinning 5s infinite linear;
