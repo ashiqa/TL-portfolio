@@ -30,7 +30,7 @@ function App() {
             }
           },
           "color": {
-            "value": "#ffffff"
+            "value": "#fff9db"
           },
           "shape": {
             "type": "circle",
@@ -63,14 +63,14 @@ function App() {
             "anim": {
               "enable": false,
               "speed": 4,
-              "size_min": 0.3,
+              "size_min": 0.1,
               "sync": false
             }
           },
           "line_linked": {
             "enable": false,
             "distance": 150,
-            "color": "#ffffff",
+            "color": "#fff9db",
             "opacity": 0.4,
             "width": 1
           },

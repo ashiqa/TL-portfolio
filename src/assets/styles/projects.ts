@@ -29,7 +29,7 @@ export const Container = styled.section`
 
     .project{
       padding: 2rem 1.8rem;
-      background-color: #432a59;
+      background-color: var(--purple);
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
@@ -79,8 +79,9 @@ export const Container = styled.section`
           display: flex;
           align-items: center;
           gap: 2rem;
-          font-size: 1.4rem;
-          opacity: 0.6;
+          font-size: 1.2rem;
+          font-weight: bold;
+          //opacity: 0.6;
         }
       }
 
