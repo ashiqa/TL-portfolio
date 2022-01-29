@@ -5,10 +5,12 @@ export const GlobalStyle = createGlobalStyle`
   :root{
     --pink: #E6B0AD;
     --darkpink: #ad6687 ;
-    --purple: #432a59;
+    --purple: #5f356f;
     --green: #23ce6b;
     --blue: #232741;
     --gold: #e6aa32;
+    --cream: #fff9db;
+    --yellow: #fae563;
     scroll-padding-top: 10rem;
 
     &.light{
@@ -27,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
           color: var(--blue);
         }
         .menu,.menu:before, .menu:after{
-          background-color: var(--blue); 
+          background-color: var(--blue);
         }
         .menu.active{
           background-color: rgba(255,0,255,0.3);
