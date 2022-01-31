@@ -6,9 +6,9 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 0.8rem 10rem;
-  
+
   background-color: #21212150;
-  
+
   backdrop-filter: blur(6px);
 
   position: fixed;
@@ -34,7 +34,7 @@ export const Container = styled.header`
       }
 
       &:hover{
-        filter: brightness(0.6);
+        //filter: brightness(0.6);
         color:var(--gold);
       }
     }
@@ -182,5 +182,5 @@ export const Container = styled.header`
       }
     }
   }
-  
+
 `
